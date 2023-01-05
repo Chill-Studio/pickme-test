@@ -1,5 +1,5 @@
 import { AddIcon, MinusIcon } from "@chakra-ui/icons"
-import { Text, Flex, IconButton, useTheme, Center, Heading } from "@chakra-ui/react"
+import { Flex, IconButton, useTheme, Center, Heading } from "@chakra-ui/react"
 
 
 interface Props {

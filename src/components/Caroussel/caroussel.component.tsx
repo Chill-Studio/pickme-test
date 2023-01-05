@@ -18,14 +18,14 @@ export const Caroussel = ({ }: Props) => {
     const [selectedIndex, setSelectedIndex] = useState(0);
 
     // any for props since the typing is not correct from the librarie (the type is {option : {...}}) wich is wrong
-    const customRenderItem = (item: JSX.Element, props: any) => {
+    const customRenderItem = (item: any, props: any) => {
         const { isSelected, isPrevious, ...restProps } = props;
         return (
             <item.type {...item.props} {...restProps} style={{ borderRadius: 15 }} />
         );
     };
 
-    const customRenderThumb = (children: JSX.Element[]) => {
+    const customRenderThumb = (children: any[]) => {
         return children.map((item, i) => {
             const props = item.props;
             return (

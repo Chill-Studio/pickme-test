@@ -16,7 +16,6 @@ import {
     PopoverTrigger,
     PopoverContent,
     PopoverHeader,
-    Text,
     Heading,
 } from '@chakra-ui/react'
 import logoImage from "~/assets/images/logo.svg";
